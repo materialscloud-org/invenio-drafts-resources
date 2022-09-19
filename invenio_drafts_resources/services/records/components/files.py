@@ -63,8 +63,7 @@ class DraftFilesComponent(ServiceComponent):
                 {
                     "field": "files.enabled",
                     "messages": [
-                        _("Missing uploaded files. To disable files for "
-                          "this record please mark it as metadata-only.")
+                        _("Missing uploaded files.")
                     ]
                 }
             )
